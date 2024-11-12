@@ -6,14 +6,42 @@
 
 body {
     background-color: #f5f5ec;
+    margin-top: 5%;
 }
-div {
 
+div {
     text-align: center;
     width: 40%;
     margin: auto;
+    word-wrap: break-word;
 }
 
-p {
-    
+.element {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+.pp {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.fakeheader {
+    font-size: 25px;
+    text-align: center;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100vh;
+    background-color: black;
+    position: absolute; 
+    left: 50%; 
+    margin-left: -0.5px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
