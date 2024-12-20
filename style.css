@@ -4,7 +4,11 @@
     font-style: normal;
 }
 
+haed {
+    font-family: "Amiri", serif;
+}
 body {
+    font-family: "Amiri", serif;
     background-color: #f5f5ec;
     margin-top: 5%;
 }
@@ -123,3 +127,38 @@ td {
     background-size: 100% 100%;
 }
 
+.submit {
+    text-decoration: none;
+}
+
+.form {
+    color: black;
+}
+
+input {
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    caret-color: #da99f2;
+}
+
+.submit {
+    background-image: linear-gradiant(#da99f2, #da99f2);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.submit:hover {
+    background-color: #da99f2;
+}
+
+label {
+    font-size: 20px;
+}
