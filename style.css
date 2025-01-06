@@ -139,8 +139,8 @@ input {
     margin: 5px;
     border-radius: 7px;
     border: 1px solid black;
-    height: 50px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 15px;
     text-align: center;
     caret-color: #da99f2;
 }
